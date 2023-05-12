@@ -1,0 +1,77 @@
+/* Display types are parent--->child--->child */
+
+#body {
+  display: flex;
+  width: max-content;
+  background-image: linear-gradient(rgb(9, 197, 249), rgb(0, 24, 237));
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#rightInfo {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+#cityHead {
+  margin-top: 3rem;
+  margin-left: 6rem;
+}
+
+#weatherInfo {
+  display: flex;
+  width: max-content;
+}
+
+.weatherCard {
+  margin-left: 1rem;
+  margin-right: 0rem;
+  height: 300px;
+  width: 100px;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+#card1 {
+  margin-left: 6rem;
+}
+
+#submitSearch {
+  background-color: rgb(119, 230, 230);
+  justify-content: left;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+#home {
+  background-color: rgb(119, 230, 230);
+  justify-content: left;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+#save {
+  background-color: rgb(119, 230, 230);
+  justify-content: left;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+#currentHome {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.saved-city {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.delete {
+  cursor: pointer;
+  padding: 5px;
+  display: inline-block;
+  color: #c108f0;
+}

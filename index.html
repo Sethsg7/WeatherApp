@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+
+  <body id="body">
+    <div id="leftInfo">
+      <!-- <main style="display: grid; grid-template-columns: 1fr 3fr"> -->
+      <div id="searchBars">
+        <h2>Search for a city.</h2>
+        <form id="form">
+          <label for="City"></label>
+          <input id="city" type="text" placeholder="City" />
+          <label for="City"></label>
+          <input id="country" type="text" placeholder="Country" />
+          <input id="submitSearch" type="submit" value="Search" />
+        </form>
+      </div>
+      <p id="homePara">Would you like to save this as your home city?</p>
+      <form id="homeCity">
+        <input id="home" type="button" value="Save" />
+      </form>
+      <div id="currentHomeContainer">
+        <p id="currentHome">Current Home.</p>
+      </div>
+
+      <p>Would you like to bookmark this city?</p>
+      <form id="savedCities">
+        <input id="save" type="button" value="Save" />
+      </form>
+
+      <div>
+        <h3>Saved Cities</h3>
+        <ul id="savedCitiesList"></ul>
+      </div>
+    </div>
+
+    <div id="rightInfo">
+      <div id="head">
+        <h1 id="cityHead">Search for a city.</h1>
+      </div>
+      <div id="weatherInfo">
+        <!-- <div id="cardColl"> -->
+        <div id="card1" class="weatherCard">
+          <p id="weather1">Search for a city.</p>
+          <p id="main1"></p>
+          <img id="icon1" />
+        </div>
+        <div class="weatherCard">
+          <p id="weather2">Search for a city.</p>
+          <p id="main2"></p>
+          <img id="icon2" />
+        </div>
+        <div class="weatherCard">
+          <p id="weather3">Search for a city.</p>
+          <p id="main3"></p>
+          <img id="icon3" />
+        </div>
+        <div class="weatherCard">
+          <p id="weather4">Search for a city.</p>
+          <p id="main4"></p>
+          <img id="icon4" />
+        </div>
+        <div class="weatherCard">
+          <p id="weather5">Search for a city.</p>
+          <p id="main5"></p>
+          <img id="icon5" />
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!-- </main> -->
+  </body>
+</html>
